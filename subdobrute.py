@@ -8,8 +8,7 @@ def subdomain():
     print(Y)
     os.system(f"figlet SubdoBrute")
     space = 10 * " "
-    print(f"{C}{space}https://github.com/Ag3ntQ{W}")
-    print(" ") # :)
+    print(f"{C}{space}https://github.com/Ag3ntQ{W}\n")
     subdomains = open("subdomains.txt", 'r').read().splitlines()
     thread = 40  # it can be changed to
     diff = int(len(subdomains) / thread)
